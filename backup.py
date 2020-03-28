@@ -60,8 +60,8 @@ source_path = Path(args.source_path)
 target_path = Path(args.target_path)
 
 value = input(
-    f"Please confirm that you want to overwrite directory '"
-    f"{args.target_path}' with files from '{args.target_path}'.\ny/n\n")
+    "Please confirm that you want to overwrite directory '"
+    "{}' with files from '{}'.\ny/n\n".format(args.target_path, args.source_path))
 if value != 'y':
     exit(0)
 

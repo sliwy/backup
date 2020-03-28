@@ -12,7 +12,7 @@ This is a simple script which backs up files from source directory into target d
 ```bash
 python3 backup.py <SOURCE_DIRECTORY> <TARGET DIRECTORY>
 ```
-- `SOURCE_DIRECTORY` is the directory which will be the newest version of files you want to back up.
+- `SOURCE_DIRECTORY` is the newest version of directory you want to back up.
 - `TARGET_DIRECTORY` is the directory which you want to overwrite, where the backup will be placed.
 
 Then you have to confirm that specified directories are correctly chosen and you want to overwrite `<TARGET DIRECTORY>`. If you want to continue type `y` and  hit `ENTER`, otherwise type `n` and hit `ENTER`. 
